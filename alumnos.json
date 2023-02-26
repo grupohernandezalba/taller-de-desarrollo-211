@@ -3,127 +3,127 @@
         "nombre" : "Jose Francisco",
         "apellidos" : "Aboytes Martinez",
         "participaciones" : 0,
-        "practicas" : 0
+        "practicas" : 1
     },
     {
         "nombre" : "José Alfredo",
         "apellidos" : "Arriaga Rosillo",
         "participaciones" : 0,
-        "practicas" : 3
+        "practicas" : 4
     },
     {
         "nombre" : "Rafael",
         "apellidos" : "Arrieta Valadez",
         "participaciones" : 1,
-        "practicas" : 3
+        "practicas" : 4
     },
     {
         "nombre" : "Naomi Montserrat",
         "apellidos" : "Barrera Bautista",
         "participaciones" : 1,
-        "practicas" : 2
+        "practicas" : 3
     },
     {
         "nombre" : "Carla Jireh",
         "apellidos" : "Bastida Navarrete",
         "participaciones" : 1,
-        "practicas" : 2
+        "practicas" : 3
     },
     {
         "nombre" : "Iván Haziel",
         "apellidos" : "Benito Rodríguez",
-        "participaciones" : 0,
-        "practicas" : 2
+        "participaciones" : 1,
+        "practicas" : 3
     },
     {
         "nombre" : "Máximo Arturo",
         "apellidos" : "Camacho Hernández",
-        "participaciones" : 1,
+        "participaciones" : 2,
         "practicas" : 3
     },
     {
         "nombre" : "Samuel Conde",
         "apellidos" : "Rangel",
         "participaciones" : 1,
-        "practicas" : 3
+        "practicas" : 4
     },
     {
         "nombre" : "Eduardo",
         "apellidos" : "Escamilla Herrera",
         "participaciones" : 1,
-        "practicas" : 3
+        "practicas" : 4
     },
     {
         "nombre" : "Alejandro Paolo",
         "apellidos" : "Escamilla Trujillo",
-        "participaciones" : 0,
-        "practicas" : 0
+        "participaciones" : 1,
+        "practicas" : 1
     },
     {
         "nombre" : "Jorge",
         "apellidos" : "Estrada Estrada",
-        "participaciones" : 1,
+        "participaciones" : 2,
         "practicas" : 1
     },
     {
         "nombre" : "Cristian Alejandro",
         "apellidos" : "Farias Lopez",
         "participaciones" : 0,
-        "practicas" : 3
+        "practicas" : 4
     },
     {
         "nombre" : "Héctor Eduardo",
         "apellidos" : "Fuentes Pérez",
         "participaciones" : 1,
-        "practicas" : 3
+        "practicas" : 4
     },
     {
         "nombre" : "Diego Andres",
         "apellidos" : "Gomez Vazquez",
         "participaciones" : 1,
-        "practicas" : 2
+        "practicas" : 3
     },
     {
         "nombre" : "Ian Mikael",
         "apellidos" : "Li Acosta",
         "participaciones" : 1,
-        "practicas" : 0
+        "practicas" : 1
     },
     {
         "nombre" : "Miguel Ángel",
         "apellidos" : "Maestro Alvarez",
         "participaciones" : 1,
-        "practicas" : 1
+        "practicas" : 2
     },
     {
         "nombre" : "Uriel Mata",
         "apellidos" : "Castellanos",
         "participaciones" : 0,
-        "practicas" : 3
+        "practicas" : 4
     },
     {
         "nombre" : "Diego Alejandro",
         "apellidos" : "Muñoz Gutiérrez",
         "participaciones" : 0,
-        "practicas" : 3
+        "practicas" : 4
     },
     {
         "nombre" : "Eliseo",
         "apellidos" : "Paredes Sánchez",
         "participaciones" : 1,
-        "practicas" : 3
+        "practicas" : 4
     },
     {
         "nombre" : "Leonardo",
         "apellidos" : "Pozos Reyes",
         "participaciones" : 0,
-        "practicas" : 3
+        "practicas" : 4
     },
     {
         "nombre" : "Jorge Antonio",
         "apellidos" : "Ramírez Ornelas",
         "participaciones" : 0,
-        "practicas" : 3
+        "practicas" : 4
     },
     {
         "nombre" : "Baldwin Esaú",
@@ -135,24 +135,24 @@
         "nombre" : "Jorge",
         "apellidos" : "Rea Heredia",
         "participaciones" : 1,
-        "practicas" : 3
+        "practicas" : 4
     },
     {
         "nombre" : "Oscar",
         "apellidos" : "Eduardo Rosa",
         "participaciones" : 0,
-        "practicas" : 3
+        "practicas" : 4
     },
     {
         "nombre" : "Edgar Emilio",
         "apellidos" : "Salcedo Elías",
         "participaciones" : 1,
-        "practicas" : 3
+        "practicas" : 4
     },
     {
         "nombre" : "Rogelio Antonio",
         "apellidos" : "Santos Aguirre",
         "participaciones" : 1,
-        "practicas" : 2
+        "practicas" : 4
     }
 ]
