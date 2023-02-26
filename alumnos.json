@@ -8,7 +8,7 @@
     {
         "nombre" : "José Alfredo",
         "apellidos" : "Arriaga Rosillo",
-        "participaciones" : 0,
+        "participaciones" : 1,
         "practicas" : 4
     },
     {
@@ -98,13 +98,13 @@
     {
         "nombre" : "Uriel Mata",
         "apellidos" : "Castellanos",
-        "participaciones" : 0,
+        "participaciones" : 1,
         "practicas" : 4
     },
     {
         "nombre" : "Diego Alejandro",
         "apellidos" : "Muñoz Gutiérrez",
-        "participaciones" : 0,
+        "participaciones" : 1,
         "practicas" : 4
     },
     {
@@ -116,7 +116,7 @@
     {
         "nombre" : "Leonardo",
         "apellidos" : "Pozos Reyes",
-        "participaciones" : 0,
+        "participaciones" : 1,
         "practicas" : 4
     },
     {
