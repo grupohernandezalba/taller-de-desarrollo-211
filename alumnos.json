@@ -8,7 +8,7 @@
     {
         "nombre" : "José Alfredo",
         "apellidos" : "Arriaga Rosillo",
-        "participaciones" : 1,
+        "participaciones" : 2,
         "practicas" : 4
     },
     {
@@ -44,7 +44,7 @@
     {
         "nombre" : "Samuel Conde",
         "apellidos" : "Rangel",
-        "participaciones" : 1,
+        "participaciones" : 3,
         "practicas" : 4
     },
     {
@@ -140,7 +140,7 @@
     {
         "nombre" : "Oscar",
         "apellidos" : "Eduardo Rosa",
-        "participaciones" : 0,
+        "participaciones" : 1,
         "practicas" : 4
     },
     {
