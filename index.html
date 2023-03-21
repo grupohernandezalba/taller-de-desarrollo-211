@@ -49,7 +49,7 @@
     
                 html = '';
                 let contador = 0;
-                let totalPracticas = 7;
+                let totalPracticas = 3;
                 let totalParticipaciones = 1;
                 alumnos.forEach( function(alumno) {
     
@@ -73,7 +73,7 @@
                         let final = parseFloat(finalPracticas) + parseFloat(finalParticipaciones);
                         html += `
                             <div class="col-6 border col-md-2 p-1 m-2 text-center animated zoomIn wow" id="alumno${contador}">     
-                                <img class="border border-white hvr-grow" src="imagenes/sin-foto.webp" width="100px" alt="${ alumno.nombre }">
+                                <img class="border border-white hvr-grow" src="${ alumno.foto }" width="250px" alt="${ alumno.nombre }">
                                 <p><strong>${ alumno.nombre }</strong> ${ alumno.apellidos }</p> 
                                 <div class='row'>
                                     <div class='col-6 ${ colorPracticas }'>
@@ -83,12 +83,13 @@
                                         `+ alumno.participaciones +`
                                     </div>
                                 </div>
-                     
+                                <!--
                                 <div class='row'>
                                     <div class='col-12'>
                                         `+ finalPracticas  +`  + ` + finalParticipaciones + ` = ` + final + `
                                     </div>
                                 </div>
+                                -->
                     
                             </div>       
                         `;                        
