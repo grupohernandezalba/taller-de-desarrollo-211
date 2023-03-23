@@ -2,7 +2,7 @@
     {
         "nombre" : "Jose Francisco",
         "apellidos" : "Aboytes Martinez",
-        "participaciones" : 0,
+        "participaciones" : 1,
         "practicas" : 2,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/6417899c6cb6330c067d463c/Z2wYI8.jpeg"
     },
@@ -38,7 +38,7 @@
     {
         "nombre" : "Iván Haziel",
         "apellidos" : "Benito Rodríguez",
-        "participaciones" : 1,
+        "participaciones" : 2,
         "practicas" : 2,
         "foto" : "imagenes/sin-foto.webp"
     },
@@ -171,7 +171,7 @@
     {
         "nombre" : "Edgar Emilio",
         "apellidos" : "Salcedo Elías",
-        "participaciones" : 2,
+        "participaciones" : 3,
         "practicas" : 3,
         "foto" : "https://api.readyplayer.me/v1/avatars/641a1145398f7e86e697a788.png"
     },
