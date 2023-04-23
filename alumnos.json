@@ -4,182 +4,207 @@
         "apellidos" : "Aboytes Martinez",
         "participaciones" : 2,
         "practicas" : 2,
-        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/6417899c6cb6330c067d463c/Z2wYI8.jpeg"
+        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/6417899c6cb6330c067d463c/Z2wYI8.jpeg",
+        "equipo" : "Perrez"
     },
     {
         "nombre" : "José Alfredo",
         "apellidos" : "Arriaga Rosillo",
-        "participaciones" : 6,
+        "participaciones" : 7,
         "practicas" : 2,
-        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a120e04207164c85503d4/iEZVSY.jpeg"
-        
+        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a120e04207164c85503d4/iEZVSY.jpeg",
+        "equipo" : "HTMLers"
     },
     {
         "nombre" : "Rafael",
         "apellidos" : "Arrieta Valadez",
         "participaciones" : 6,
         "practicas" : 1,
-        "foto" : "imagenes/sin-foto.webp"
+        "foto" : "https://api.readyplayer.me/v1/avatars/641a1309398f7e86e697ab35.png",
+        "equipo" : "Macacos"
     },
     {
         "nombre" : "Naomi Montserrat",
         "apellidos" : "Barrera Bautista",
-        "participaciones" : 4,
+        "participaciones" : 5,
         "practicas" : 2,
-        "foto" : "imagenes/sin-foto.webp"
+        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a147404207164c8550919/bGC8pk.jpeg",
+        "equipo" : "Henas"
     },
     {
         "nombre" : "Carla Jireh",
         "apellidos" : "Bastida Navarrete",
         "participaciones" : 1,
-        "practicas" : 2,
-        "foto" : "https://api.readyplayer.me/v1/avatars/641601e8573e2e183296f0f7.png"
+        "practicas" : 3,
+        "foto" : "https://api.readyplayer.me/v1/avatars/641601e8573e2e183296f0f7.png",
+        "equipo" : "HTMLers"
     },
     {
         "nombre" : "Iván Haziel",
         "apellidos" : "Benito Rodríguez",
-        "participaciones" : 3,
+        "participaciones" : 4,
         "practicas" : 2,
-        "foto" : "imagenes/sin-foto.webp"
+        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641ff70a6f8b8bd3af730ab6/4pFnO5.jpeg",
+        "equipo" : "HTMLers"
     },
     {
         "nombre" : "Máximo Arturo",
         "apellidos" : "Camacho Hernández",
         "participaciones" : 4,
         "practicas" : 2,
-        "foto" : "imagenes/sin-foto.webp"
+        "foto" : "https://api.readyplayer.me/v1/avatars/641a1cbf04207164c8551b7f.png",
+        "equipo" : "Macacos"
     },
     {
         "nombre" : "Samuel Conde",
         "apellidos" : "Rangel",
-        "participaciones" : 1,
-        "practicas" : 2,
-        "foto" : "imagenes/sin-foto.webp"
+        "participaciones" : 3,
+        "practicas" : 3,
+        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a155304207164c8550ab6/hXK0Vu.png",
+        "equipo" : "Henas"
     },
     {
         "nombre" : "Eduardo",
         "apellidos" : "Escamilla Herrera",
         "participaciones" : 2,
         "practicas" : 2,
-        "foto" : "imagenes/sin-foto.webp"
+        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641aab4a398f7e86e698789e/r9JW1H.jpeg",
+        "equipo" : "Henas"
     },
     {
         "nombre" : "Alejandro Paolo",
         "apellidos" : "Escamilla Trujillo",
         "participaciones" : 4,
         "practicas" : 2,
-        "foto" : "https://api.readyplayer.me/v1/avatars/641a129c04207164c85504c4.png"
+        "foto" : "https://api.readyplayer.me/v1/avatars/641a129c04207164c85504c4.png",
+        "equipo" : "Perrez"
     },
     {
         "nombre" : "Jorge",
         "apellidos" : "Estrada Estrada",
         "participaciones" : 4,
         "practicas" : 1,
-        "foto" : "imagenes/sin-foto.webp"
+        "foto" : "imagenes/sin-foto.webp",
+        "equipo" : "Perrez"
     },
     {
         "nombre" : "Cristian Alejandro",
         "apellidos" : "Farias Lopez",
         "participaciones" : 0,
         "practicas" : 0,
-        "foto" : "imagenes/sin-foto.webp"
+        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a180c04207164c8551171/OxmOqT.jpeg",
+        "equipo" : "Julian"
     },
     {
         "nombre" : "Héctor Eduardo (EXENTO)",
         "apellidos" : "Fuentes Pérez",
         "participaciones" : 2,
         "practicas" : 0,
-        "foto" : "imagenes/sin-foto.webp"
+        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a15ac04207164c8550b7d/Ncv9GV.jpeg",
+        "equipo" : "Henas"
     },
     {
         "nombre" : "Diego Andres",
         "apellidos" : "Gomez Vazquez",
         "participaciones" : 3,
         "practicas" : 2,
-        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/64189070398f7e86e695456b/Wwe3i4.png"
+        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/64189070398f7e86e695456b/Wwe3i4.png",
+        "equipo" : "Henas"
     },
     {
         "nombre" : "Ian Mikael",
         "apellidos" : "Li Acosta",
         "participaciones" : 2,
         "practicas" : 1,
-        "foto" : "imagenes/sin-foto.webp"
+        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a141504207164c855083a/Zp3Ksw.jpeg",
+        "equipo" : "HTMLers"
     },
     {
         "nombre" : "Miguel Ángel",
         "apellidos" : "Maestro Alvarez",
-        "participaciones" :3,
+        "participaciones" : 5,
         "practicas" : 2,
-        "foto" : "https://api.readyplayer.me/v1/avatars/641a119204207164c85502cb.png"
+        "foto" : "https://api.readyplayer.me/v1/avatars/641a119204207164c85502cb.png",
+        "equipo" : "Perrez"
     },
     {
         "nombre" : "Uriel Mata",
         "apellidos" : "Castellanos",
         "participaciones" : 1,
-        "practicas" : 2,
-        "foto" : "imagenes/sin-foto.webp"
+        "practicas" : 3,
+        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/642073608f41d262caa3084b/Ggz2Je.jpeg",
+        "equipo" : "Julian"
     },
     {
         "nombre" : "Diego Alejandro",
         "apellidos" : "Muñoz Gutiérrez",
         "participaciones" : 3,
         "practicas" : 2,
-        "foto" : "imagenes/sin-foto.webp"
+        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a143404207164c85508be/lfBne3.jpeg",
+        "equipo" : "Julian"
     },
     {
         "nombre" : "Eliseo",
         "apellidos" : "Paredes Sánchez",
         "participaciones" : 4,
         "practicas" : 1,
-        "foto" : "imagenes/sin-foto.webp"
+        "foto" : "https://api.readyplayer.me/v1/avatars/641a251c398f7e86e697cf76.png",
+        "equipo" : "Macacos"
     },
     {
         "nombre" : "Leonardo",
         "apellidos" : "Pozos Reyes",
         "participaciones" : 1,
-        "practicas" : 2,
-        "foto" : "imagenes/sin-foto.webp"
+        "practicas" : 3,
+        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a1775398f7e86e697b535/Ht85iB.jpeg",
+        "equipo" : "Julian"
     },
     {
         "nombre" : "Jorge Antonio",
         "apellidos" : "Ramírez Ornelas",
         "participaciones" : 6,
         "practicas" : 1,
-        "foto" : "imagenes/sin-foto.webp"
+        "foto" : "https://api.readyplayer.me/v1/avatars/641a150104207164c8550a1e.png",
+        "equipo" : "Julian"
     },
     {
         "nombre" : "Baldwin Esaú",
         "apellidos" : "Ramos González",
         "participaciones" : 3,
-        "practicas" : 2,
-        "foto" : "imagenes/sin-foto.webp"
+        "practicas" : 3,
+        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a1aec398f7e86e697bd39/95AEIj.jpeg",
+        "equipo" : "HTMLers"
     },
     {
         "nombre" : "Jorge",
         "apellidos" : "Rea Heredia",
         "participaciones" : 0,
         "practicas" : 1,
-        "foto" : "imagenes/sin-foto.webp"
+        "foto" : "https://api.readyplayer.me/v1/avatars/641fbd5d34909c6baa2103d2.png",
+        "equipo" : "HTMLers"
     },
     {
         "nombre" : "Oscar",
         "apellidos" : "Eduardo Rosales Morales",
         "participaciones" : 1,
         "practicas" : 2,
-        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/6418b05e04207164c852e049/sYqfXF.jpeg"
+        "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/6418b05e04207164c852e049/sYqfXF.jpeg",
+        "equipo" : "Macacos"
     }, 
     {
         "nombre" : "Edgar Emilio",
         "apellidos" : "Salcedo Elías",
-        "participaciones" : 4,
+        "participaciones" : 5,
         "practicas" : 3,
-        "foto" : "https://api.readyplayer.me/v1/avatars/641a1145398f7e86e697a788.png"
+        "foto" : "https://api.readyplayer.me/v1/avatars/641a1145398f7e86e697a788.png",
+        "equipo" : "Macacos"
     },
     {
         "nombre" : "Rogelio Antonio",
         "apellidos" : "Santos Aguirre",
-        "participaciones" : 1,
+        "participaciones" : 2,
         "practicas" : 3,
-        "foto" : "https://api.readyplayer.me/v1/avatars/641a142704207164c8550892.png"
+        "foto" : "https://api.readyplayer.me/v1/avatars/641a142704207164c8550892.png",
+        "equipo" : "Perrez"
     }
 ]

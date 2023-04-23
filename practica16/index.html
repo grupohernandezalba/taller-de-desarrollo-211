@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS</title>
+        <style>
+            h1 {
+                /* este es un comentario */
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="titulo">Hola Javascript</h1>
+        <p id="texto">Este es un parrafo</p>
+        <ul id="colores">
+            <li>Rojo</li>
+            <li>Verde</li>
+            <li>Azul</li>
+        </ul>
+        <script>
+            var titulo;
+            titulo = document.getElementById("titulo");
+            titulo.innerHTML = "Feliz regreso a clases :)";
+            // CTRL + K + C
+            var texto = document.getElementById("texto");
+            texto.style.fontSize = "50px";
+            texto.innerHTML = "Marcador, Real Madrid 2(4) vs Chelsea 0";
+            var colores;
+            colores = document.getElementById("colores");
+            colores.style.display = "none";
+            //colores.style.display = "block";
+
+            //camel case
+            function cambiarColor(){
+                //alert('Hola JS');
+                console.log('Hola Developer');
+            }
+            cambiarColor();
+
+            document.write('Este es un número generado por JS: ');
+            document.write(50 / 60);  
+            var cadena = "Hola soy un String, ";
+            console.log("Este es una cadena " + cadena);
+
+            let a, b, c;
+            a = 5;
+            b = 6
+            c = a + b;
+            console.log(c);
+
+            var radio = 50;
+            const PI = 3.1416;
+
+            function calcularArea(radio){
+                let areaTemporal = PI * radio * radio;
+                console.log("areaTemporal" , areaTemporal);
+                return areaTemporal;
+            }
+
+            var area = calcularArea(radio);
+            console.log(area);
+
+            let numero = 10.50;
+            let nuevoNumero = 10
+            let $multi_plica = numero * nuevoNumero;
+            console.log($multi_plica);
+
+            let sinValor;
+            console.log(sinValor);
+
+            let auto = "BMW";
+            //let auto;
+            console.log(auto);
+            //Let Hoisting
+
+            let variableLocal = 10;
+            {
+                let variableLocal = 2;
+                console.log("Primero:", variableLocal);
+            }
+            console.log('Segundo:', variableLocal);
+
+            const PI_ = 3.1416;
+
+            const autos = ["VW","Chevrolet","BMW",,,50,"6"];
+            console.log(autos[0] + autos[1]);
+            console.log(autos.length);
+            //Objeto JS 
+            let autoNuevo = {
+                tipo : "Toyota", 
+                modelo : 500, 
+                color : "blanco"
+            }
+            console.log(autoNuevo.tipo);
+            console.log(autoNuevo.modelo);
+            console.log(autoNuevo.color);
+            console.log(autoNuevo);
+
+            var edad = 27;
+            var edad;
+            console.log(edad);
+
+            let edadSamuel = 25;
+            //let edadSamuel;
+
+            //Let Hoisting
+
+            var x1 = 4.5;
+            console.log(typeof x1);
+
+            var y1 = 109845634;
+            console.log(typeof y1);
+
+            var z1 = "Hola";
+            console.log(typeof z1);
+
+            var p1 = false;
+            console.log(typeof p1);
+
+            console.log("resultado:",typeof autos);
+            console.log(typeof autoNuevo);
+
+            console.log( 3 > 10);
+            console.log("Thor" > "Iron Man");
+            console.log("a" > "b");
+            console.log("de" < "bc")
+            console.log( true && false);
+            console.log( true && true);
+            console.log( true || false);
+
+            
+            let edadEmilio = 25;
+            if(edadEmilio > 18)
+            {
+                console.log('Verdadero');
+            }
+            else
+            {
+                console.log('Falso');
+            }
+            //Operador ternario
+            edadEmilio > 18 ? console.log('Verdadero') : console.log('Falso');
+
+            console.log(8 * null);
+            console.log("5" - 1);
+            console.log("5" + 1);
+
+            let valor = 0;
+            while( valor <= 12){
+                console.log(valor);
+                valor++;
+            }
+
+            for(let i = 0; i<=30 ; i++){
+                console.log(i);
+                if( i % 7 == 0 ){
+                    console.log('Entro:', i);
+                }
+                else
+                {
+                    console.log('su residuo es', i % 7 );
+                }
+            }
+
+            let cuenta = 5;
+            cuenta **= 5;
+            console.log(cuenta);
+
+            let x5 = 5;
+            let z5 = Math.pow(x5,10);
+            console.log(z5);
+
+            const persona = {
+                nombre : "Juan",
+                apellido : "Pérez",
+                id : 123,
+                nombreCompleto : function(){
+                    return this.nombre + ' ' + this.apellido
+                }
+            }
+            console.log(persona.nombreCompleto());
+            var personax = { 
+                "nombre": "Jose", 
+                "edad" : 31, 
+                "ciudad" : "León" 
+            };
+            console.log(personax);
+        </script>
+        
+    </body>
+</html>
