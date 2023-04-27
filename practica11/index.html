@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica11</title>
+    <title>Media Queries</title>
+    <style>
+        /* para desktop */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: orange;
+            color: black;
+        }
+
+        /* para tablets */
+        @media screen and ( max-width:992px){
+            body {
+                background-color: blue;
+                color: white;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+        }
+        /* para moviles */
+        @media screen and ( max-width:600px){
+            body {
+                background-color: olive;
+                color: pink;
+            }
+
+            h1 {
+                font-size: 16px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Practica 1</h1>
-    <h2>Subtitulo</h2>
+    <h1>Cambia el tamaño de la ventana del
+        navegador y verás el cambio en el navegador
+    </h1>
 </body>
 </html>

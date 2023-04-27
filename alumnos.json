@@ -9,7 +9,7 @@
     },
     {
         "nombre" : "José Alfredo",
-        "apellidos" : "Arriaga Rosillo",
+        "apellidos" : "Arriaga Rosillo EXENTO",
         "participaciones" : 7,
         "practicas" : 3,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a120e04207164c85503d4/iEZVSY.jpeg",
@@ -18,7 +18,7 @@
     {
         "nombre" : "Rafael",
         "apellidos" : "Arrieta Valadez",
-        "participaciones" : 6,
+        "participaciones" : 5,
         "practicas" : 1,
         "foto" : "https://api.readyplayer.me/v1/avatars/641a1309398f7e86e697ab35.png",
         "equipo" : "Macacos"
@@ -41,7 +41,7 @@
     },
     {
         "nombre" : "Iván Haziel",
-        "apellidos" : "Benito Rodríguez",
+        "apellidos" : "Benito Rodríguez EXENTO 2do parcial",
         "participaciones" : 4,
         "practicas" : 2,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641ff70a6f8b8bd3af730ab6/4pFnO5.jpeg",
@@ -57,7 +57,7 @@
     },
     {
         "nombre" : "Samuel Conde",
-        "apellidos" : "Rangel",
+        "apellidos" : "Rangel EXENTO",
         "participaciones" : 3,
         "practicas" : 3,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a155304207164c8550ab6/hXK0Vu.png",
@@ -121,7 +121,7 @@
     },
     {
         "nombre" : "Miguel Ángel",
-        "apellidos" : "Maestro Alvarez",
+        "apellidos" : "Maestro Alvarez EXENTO",
         "participaciones" : 5,
         "practicas" : 2,
         "foto" : "https://api.readyplayer.me/v1/avatars/641a119204207164c85502cb.png",
@@ -145,7 +145,7 @@
     },
     {
         "nombre" : "Eliseo",
-        "apellidos" : "Paredes Sánchez",
+        "apellidos" : "Paredes Sánchez EXENTO",
         "participaciones" : 4,
         "practicas" : 1,
         "foto" : "https://api.readyplayer.me/v1/avatars/641a251c398f7e86e697cf76.png",
@@ -154,7 +154,7 @@
     {
         "nombre" : "Leonardo",
         "apellidos" : "Pozos Reyes",
-        "participaciones" : 1,
+        "participaciones" : 2,
         "practicas" : 3,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a1775398f7e86e697b535/Ht85iB.jpeg",
         "equipo" : "Julian"
@@ -177,7 +177,7 @@
     },
     {
         "nombre" : "Jorge",
-        "apellidos" : "Rea Heredia",
+        "apellidos" : "Rea Heredia EXENTO",
         "participaciones" : 0,
         "practicas" : 1,
         "foto" : "https://api.readyplayer.me/v1/avatars/641fbd5d34909c6baa2103d2.png",
@@ -185,7 +185,7 @@
     },
     {
         "nombre" : "Oscar",
-        "apellidos" : "Eduardo Rosales Morales",
+        "apellidos" : "Eduardo Rosales Morales EXENTO 2do Parcial",
         "participaciones" : 1,
         "practicas" : 2,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/6418b05e04207164c852e049/sYqfXF.jpeg",
@@ -195,7 +195,7 @@
         "nombre" : "Edgar Emilio",
         "apellidos" : "Salcedo Elías",
         "participaciones" : 5,
-        "practicas" : 3,
+        "practicas" : 4,
         "foto" : "https://api.readyplayer.me/v1/avatars/641a1145398f7e86e697a788.png",
         "equipo" : "Macacos"
     },
