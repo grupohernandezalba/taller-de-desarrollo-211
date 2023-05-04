@@ -11,7 +11,7 @@
         "nombre" : "José Alfredo",
         "apellidos" : "Arriaga Rosillo EXENTO",
         "participaciones" : 7,
-        "practicas" : 3,
+        "practicas" : 5,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a120e04207164c85503d4/iEZVSY.jpeg",
         "equipo" : "HTMLers"
     },
@@ -27,7 +27,7 @@
         "nombre" : "Naomi Montserrat",
         "apellidos" : "Barrera Bautista",
         "participaciones" : 5,
-        "practicas" : 2,
+        "practicas" : 5,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a147404207164c8550919/bGC8pk.jpeg",
         "equipo" : "Henas"
     },
@@ -35,7 +35,7 @@
         "nombre" : "Carla Jireh",
         "apellidos" : "Bastida Navarrete",
         "participaciones" : 1,
-        "practicas" : 3,
+        "practicas" : 6,
         "foto" : "https://api.readyplayer.me/v1/avatars/641601e8573e2e183296f0f7.png",
         "equipo" : "HTMLers"
     },
@@ -51,15 +51,15 @@
         "nombre" : "Máximo Arturo",
         "apellidos" : "Camacho Hernández",
         "participaciones" : 4,
-        "practicas" : 2,
+        "practicas" : 5,
         "foto" : "https://api.readyplayer.me/v1/avatars/641a1cbf04207164c8551b7f.png",
         "equipo" : "Macacos"
     },
     {
         "nombre" : "Samuel Conde",
         "apellidos" : "Rangel EXENTO",
-        "participaciones" : 3,
-        "practicas" : 3,
+        "participaciones" : 4,
+        "practicas" : 6,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a155304207164c8550ab6/hXK0Vu.png",
         "equipo" : "Henas"
     },
@@ -67,7 +67,7 @@
         "nombre" : "Eduardo",
         "apellidos" : "Escamilla Herrera",
         "participaciones" : 2,
-        "practicas" : 2,
+        "practicas" : 3,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641aab4a398f7e86e698789e/r9JW1H.jpeg",
         "equipo" : "Henas"
     },
@@ -107,7 +107,7 @@
         "nombre" : "Diego Andres",
         "apellidos" : "Gomez Vazquez",
         "participaciones" : 3,
-        "practicas" : 2,
+        "practicas" : 5,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/64189070398f7e86e695456b/Wwe3i4.png",
         "equipo" : "Henas"
     },
@@ -131,7 +131,7 @@
         "nombre" : "Uriel Mata",
         "apellidos" : "Castellanos",
         "participaciones" : 1,
-        "practicas" : 3,
+        "practicas" : 6,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/642073608f41d262caa3084b/Ggz2Je.jpeg",
         "equipo" : "Julian"
     },
@@ -139,7 +139,7 @@
         "nombre" : "Diego Alejandro",
         "apellidos" : "Muñoz Gutiérrez",
         "participaciones" : 3,
-        "practicas" : 2,
+        "practicas" : 5,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a143404207164c85508be/lfBne3.jpeg",
         "equipo" : "Julian"
     },
@@ -147,7 +147,7 @@
         "nombre" : "Eliseo",
         "apellidos" : "Paredes Sánchez EXENTO",
         "participaciones" : 4,
-        "practicas" : 1,
+        "practicas" : 4,
         "foto" : "https://api.readyplayer.me/v1/avatars/641a251c398f7e86e697cf76.png",
         "equipo" : "Macacos"
     },
@@ -155,7 +155,7 @@
         "nombre" : "Leonardo",
         "apellidos" : "Pozos Reyes",
         "participaciones" : 2,
-        "practicas" : 3,
+        "practicas" : 7,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a1775398f7e86e697b535/Ht85iB.jpeg",
         "equipo" : "Julian"
     },
@@ -171,7 +171,7 @@
         "nombre" : "Baldwin Esaú",
         "apellidos" : "Ramos González",
         "participaciones" : 3,
-        "practicas" : 3,
+        "practicas" : 6,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/641a1aec398f7e86e697bd39/95AEIj.jpeg",
         "equipo" : "HTMLers"
     },
@@ -195,7 +195,7 @@
         "nombre" : "Edgar Emilio",
         "apellidos" : "Salcedo Elías",
         "participaciones" : 5,
-        "practicas" : 4,
+        "practicas" : 7,
         "foto" : "https://api.readyplayer.me/v1/avatars/641a1145398f7e86e697a788.png",
         "equipo" : "Macacos"
     },
@@ -203,7 +203,7 @@
         "nombre" : "Rogelio Antonio",
         "apellidos" : "Santos Aguirre",
         "participaciones" : 2,
-        "practicas" : 3,
+        "practicas" : 6,
         "foto" : "https://api.readyplayer.me/v1/avatars/641a142704207164c8550892.png",
         "equipo" : "Perrez"
     }
