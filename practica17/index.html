@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 17 - Eventos</title>
+</head>
+<body>
+    
+    <button id="boton1" onclick="muestraHora()">1.- ¿Qué hora es?</button>
+    <p id="hora"></p>
+
+    <button id="boton2" onmouseover="muestraHora2()">2.- ¿Qué hora es?</button>
+    <p id="hora2"></p>
+
+    <button id="boton3">3.- ¿Qué hora es?</button>
+    <p id="hora3"></p>
+
+    <button id="boton4">4.- ¿Qué hora es?</button>
+    <p id="hora4"></p>
+
+    <button id="boton5">5.- ¿Qué hora es?</button>
+    <p id="hora5"></p>
+
+    <h2 id="valor"></h2>
+
+
+    <input type="text" id="nombre"  onkeydown="cambiaColor()">
+
+    <!--<input type="text" id="nombre"  onkeyup="cambiaColor()">-->
+
+
+    <script>
+
+        function muestraHora(){
+            let hora = document.getElementById('hora');          
+            hora.innerHTML = Date();
+        }
+
+        function muestraHora2(){
+            let hora = document.getElementById('hora2');          
+            hora.innerHTML = Date();
+        }
+
+        var boton3 = document.getElementById("boton3");
+        boton3.addEventListener("click",muestraHora3);
+        function muestraHora3(){
+            let hora = document.getElementById('hora3');          
+            hora.innerHTML = Date();
+        }
+
+
+        var boton4 = document.getElementById("boton4");
+        boton4.addEventListener("click", function() {
+            let hora4 = document.getElementById('hora4');          
+            hora4.innerHTML = Date();
+        });
+
+        var boton5 = document.getElementById("boton5"); // Arrow function
+        boton5.addEventListener("click", () => {
+            let hora5 = document.getElementById('hora5');          
+            hora5.innerHTML = Date();
+        });
+
+        document.addEventListener("mousemove", () => {
+            let valor = document.getElementById('valor');          
+            valor.innerHTML = Math.random();
+        });
+
+
+        const potencia = (base, exponente) => {
+            let resultado = 1;
+            for (let cuenta = 0; cuenta < exponente; cuenta++) {
+                resultado *= base;
+            }
+            return resultado;
+        };
+
+        var valorPotencia = potencia(2,3);
+        console.log(valorPotencia);
+
+        //Cuando solo haya un solo nombre de parámetro, los paréntesis alrededor de la lista de parámetros pueden ser omitidos. 
+        const cuadrado1 = (x) => { return x * x; };
+        console.log(cuadrado1(3));
+
+        const cuadrado2 = x => x * x ;
+
+        console.log(cuadrado2(4));
+
+
+        const bocina = () => {
+            console.log("Hola");
+        };
+
+        bocina();
+
+
+        //Argumentos opcionales
+        function cuadrado(x) { return x * x; }
+        console.log(cuadrado(5, true, "erizo"));    
+
+
+
+        const cambiaColor = () => {
+            document.getElementById("nombre").style.backgroundColor = "red";
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple SPA</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <style>
+        #productos, #servicios, #contacto {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SIMPLE-SPA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" id="btnInicio" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="btnProductos" href="#">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="btnServicios" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="btnContacto" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container" id="inicio">
+        <div class="row">
+            <div class="col-12">
+                <h1>Inicio</h1>
+                <p>Descripción de inicio, Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="container" id="productos">
+        <div class="row">
+            <div class="col-12">
+                <h1>Productos</h1>
+                <p>Descripción de productos, Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="container" id="servicios">
+        <div class="row">
+            <div class="col-12">
+                <h1>Servicios</h1>
+                <p>Descripción de servicios, Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="container" id="contacto">
+        <div class="row">
+            <div class="col-12">
+                <h1>Contacto</h1>
+                <p>Descripción de contacto, Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+            </div>
+        </div>
+      </div>
+
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <script>
+
+        const inicio = document.getElementById('inicio');
+        const productos = document.getElementById('productos');
+        const servicios = document.getElementById('servicios');
+        const contacto = document.getElementById('contacto');
+
+        const btnInicio = document.getElementById('btnInicio');
+        const btnProductos = document.getElementById('btnProductos');
+        const btnServicios = document.getElementById('btnServicios');
+        const btnContacto = document.getElementById('btnContacto');
+
+        btnInicio.addEventListener("click", () => {
+            ocultaContenidos();
+            inicio.style.display = "block";
+        });
+
+        btnProductos.addEventListener("click", () => {
+            ocultaContenidos();
+            productos.style.display = "block";
+        });
+
+        btnServicios.addEventListener("click", () => {
+            ocultaContenidos();
+            servicios.style.display = "block";
+        });
+
+        btnContacto.addEventListener("click", () => {
+            ocultaContenidos();
+            contacto.style.display = "block";
+        });
+
+        function ocultaContenidos() {
+            const containers = document.getElementsByClassName('container');
+            for(let i = 0; i < containers.length; i++){
+                containers[i].style.display = 'none';
+            }
+        }
+
+    </script>
+</body>
+</html>

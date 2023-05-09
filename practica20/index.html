@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <p id="lista1"></p>
+    <p id="lista2"></p>
+    <p id="lista3"></p>
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <script>
+
+        let texto1 = "";
+        let texto2 = "";
+        let texto3 = "";
+
+        const frutas = ["manzana", "naranja", "uva"];
+        const autos = ["bmw", "vw", "chevrolet"];
+        const navegadores = ["chrome", "safari", "edge"];
+
+        frutas.forEach(myFunction);
+
+        function myFunction(item, index){
+            texto1 += index + ": " + item + "<br>";
+        }
+        document.getElementById("lista1").innerHTML = texto1;
+
+
+        autos.forEach((elemento,indice)=>{
+            texto2 += indice + ": " + elemento + "<br>";
+        });
+        document.getElementById("lista2").innerHTML = texto2;
+
+
+        navegadores.forEach( item =>{
+            texto3 += item + "<br>";
+        });
+        document.getElementById("lista3").innerHTML = texto3;
+
+    </script>
+
+
+</body>
+</html>
