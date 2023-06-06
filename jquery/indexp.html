@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Desvanecer imagen</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0/css/bootstrap.min.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <style>
+
+    .image {
+
+      max-width: 600px;
+
+      
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container mt-5">
+
+    <div class="text-center">
+
+      <img src="https://images.unsplash.com/photo-1685468413971-eb5a98d01f34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Imagen" class="image">
+
+      <br>
+
+      <button id="btnToggle" class="btn btn-primary mt-3">Desvanecer imagen</button>
+
+    </div>
+
+  </div>
+
+
+
+
+  <script>
+
+    $(document).ready(function() {
+
+      $('#btnToggle').click(function() {
+
+        $('.image').fadeToggle();
+
+      });
+
+    });
+
+  </script>
+
+</body>
+
+</html>
